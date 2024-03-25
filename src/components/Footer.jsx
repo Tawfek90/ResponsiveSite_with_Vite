@@ -6,11 +6,11 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { RiTwitterXFill } from "react-icons/ri";
 export default function Footer() {
   return (
-    <footer>
-      <div className="footer_container w-[90%] mx-auto max-w-[1440px] min-w-[300px]">
+    <footer className=" mt-8 ">
+      <div className="footer_container px-8 md:px-6 sm:px-2 w-[100%]  max-w-[1440px] min-w-[300px]">
         <div className="content w-full flex items-center justify-between h-[160px] bg-[#E5ECF2]">
           {/*text */}
-          <div className="text ">
+          <div className="text  ">
             <h2 className=" font-[700] text-[32px] leading-[34px] sm:text-[20px] text-[#00008D]">
               Do you need any help?
             </h2>
