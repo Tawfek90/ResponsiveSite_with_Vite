@@ -43,7 +43,7 @@ export default function Involva() {
             </div>
           </div>
           {/*numbers */}
-          <div className="numbers mt-8  grid grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-items-center ">
+          <div className="numbers text-center mt-8  grid grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-items-center ">
             <div className="item mt-4">
               <h2 className=" font-[700] text-[#00004E] leading-[60px] text-[48px] md:text-[35px]  ">
                 6+
@@ -78,7 +78,7 @@ export default function Involva() {
             </div>
           </div>
           {/*vission */}
-          <div className="vission grid grid-cols-2 md:grid-cols-1 justify-items-center  ">
+          <div className="vission mt-6 grid grid-cols-2 md:grid-cols-1 justify-items-center  ">
             {/*item */}
             <div className="item w-[80%] max-w-[617px] min-w-[300px] bg-gradient-to-r from-[#00008D] to-[#32E5AD] text-[#FFF] py-6 px-4 rounded-[50px]">
               <h2 className=" font-[500] text-[30px]">our vision</h2>

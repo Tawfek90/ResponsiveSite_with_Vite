@@ -19,7 +19,7 @@ export default function Blogs() {
           </div>
         </div>
         {/*items */}
-        <div className="list w-full mt-6 w-[90%] mx-auto max-w-[1264px] min-w-[300px]  grid grid-cols-3 gap-[30px] md:grid-cols-2 sm:grid-cols-1">
+        <div className="list  mt-6 w-[90%] mx-auto max-w-[1264px] min-w-[300px]  grid grid-cols-3 gap-[30px] md:grid-cols-2 sm:grid-cols-1">
           {/*item1 */}
           <div className="item">
             <img src="../images/persons.png" alt="persons" />

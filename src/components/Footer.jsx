@@ -23,7 +23,7 @@ export default function Footer() {
           </button>
         </div>
         {/*conclusion */}
-        <div className="conslution  bg-[#00004E]  w-full grid grid-cols-4 gap-[99px] lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ">
+        <div className="conslution px-8  bg-[#00004E]  w-full grid grid-cols-4 gap-[99px] lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ">
           {/*p1 */}
           <div className="p1 px-4 py-2 flex flex-col justify-between">
             {/*logo */}
@@ -93,7 +93,7 @@ export default function Footer() {
             </div>
           </div>
           {/*p2 */}
-          <div className="p2 px-4 py-2  text-[#FFF] mt-8 sm:mt-[-3rem] flex flex-col justify-between">
+          <div className="p2  py-2  text-[#FFF] mt-8 sm:mt-[-3rem] flex flex-col justify-between">
             <h2 className=" text-[22px] leading-[29px] font-[500] capitalize">
               our services
             </h2>
@@ -117,7 +117,7 @@ export default function Footer() {
             </p>
           </div>
           {/*p3*/}
-          <div className="p2 px-4 py-2  text-[#FFF] mt-8 sm:mt-[-3rem] flex flex-col justify-between">
+          <div className="p2  py-2  text-[#FFF] mt-8 sm:mt-[-3rem] flex flex-col justify-between">
             <h2 className=" text-[22px] leading-[29px] font-[500] capitalize">
               Our Products
             </h2>
@@ -141,7 +141,7 @@ export default function Footer() {
             </p>
           </div>
           {/*p4*/}
-          <div className="p2 px-4 py-2  text-[#FFF] mt-8 sm:mt-[-3rem] flex flex-col justify-between">
+          <div className="p2  py-2  text-[#FFF] mt-8 sm:mt-[-3rem] flex flex-col justify-between">
             <h2 className=" text-[22px] leading-[29px] font-[500] capitalize">
               Company
             </h2>

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { MdCancel } from "react-icons/md";
 import styles from "./navbar.module.scss";
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   const [sideMenue, setSideMenue] = useState(false);
   return (
@@ -15,20 +17,33 @@ export default function Navbar() {
         <ul
           className={`${styles.items} flex items-center justify-between w-[586px] capitalize md:hidden font-[500] `}
         >
-          <li>about us</li>
-          <li>services</li>
-          <li>for developers</li>
+          <Link to={"/about"}>
+            <li>about us</li>
+          </Link>
+
+          <Link to={"/services"}>
+            <li>services</li>
+          </Link>
+          <Link to={"/review"}>
+            <li>for developers</li>
+          </Link>
+
           <li>success stories</li>
-          <li> remote jobs</li>
+
+          <Link to={"/blog"}>
+            <li> remote jobs</li>
+          </Link>
         </ul>
         {/*buttons */}
         <div className="btn  w-[380px] flex items-center justify-between lg:hidden">
           <button className=" w-[197px] h-[48px] rounded-[50px] text-[#00008D] border border-[#00008D] font-[500] ">
             join as a developer
           </button>
-          <button className=" w-[137px] h-[48px] rounded-[50px] text-[#FFF] bg-[#00008D] border py-3 px-6">
-            contact us
-          </button>
+          <Link to={"/contact"}>
+            <button className=" w-[137px] h-[48px] rounded-[50px] text-[#FFF] bg-[#00008D] border py-3 px-6">
+              contact us
+            </button>
+          </Link>
         </div>
         {/*BARS */}
         <div className="small_screen">
