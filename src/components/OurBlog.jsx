@@ -38,7 +38,7 @@ export default function OurBlog() {
           </div>
         </div>
         {/*communicate */}
-        <div className="communicate mt-12 grid gap-[30px] grid-cols-3 md:grid-cols-2 sm:grid-cols-1  sm: justify-items-center">
+        <div className="communicate mt-12 grid gap-[30px] grid-cols-3 lg:grid-cols-2 sm:grid-cols-1  sm: justify-items-center">
           {/*item */}
           <div className="item mt-4">
             <img src="../images/persons.png" alt="" />
