@@ -10,9 +10,12 @@ export default function Navbar() {
     <nav className=" ">
       <div className="nav_container mx-auto m-4 flex justify-between items-center relative w-[95%]">
         {/*logo */}
-        <div className="logo">
-          <img src="./images/Logo.png" className=" " alt="" />
-        </div>
+        <Link to={"/"}>
+          <div className="logo">
+            <img src="./images/Logo.png" className=" " alt="" />
+          </div>
+        </Link>
+
         {/* items */}
         <ul
           className={`${styles.items} flex items-center justify-between w-[586px] capitalize md:hidden font-[500] `}
@@ -53,19 +56,33 @@ export default function Navbar() {
           />
           {sideMenue && (
             <ul
-              className={`${styles.itemss} hidden md:block absolute top-0 right-[-8px] bg-[#5F9EA0] h-screen w-[250px] text-right px-4 pt-4 capitalize text-[20px] z-[100]  `}
+              className={`${styles.itemss} text-[#FFF] rounded-tl-[34px] rounded-bl-[34px] hidden md:block absolute top-0 right-[-8px] bg-[#5F9EA0] h-screen w-[250px] text-right px-4 pt-4 capitalize text-[20px] z-[100]  `}
             >
               <MdCancel
                 className=" cursor-pointer"
                 onClick={() => setSideMenue(false)}
               />
-              <li>about us</li>
-              <li>services</li>
-              <li>for developers</li>
-              <li>success stories</li>
-              <li> remote jobs</li>
+              <Link to={"/about"}>
+                <li className=" text-[#FFF]">about us</li>
+              </Link>
+
               <li>join as a developer</li>
-              <li>contact us</li>
+              <Link to={"/contact"}>
+                <li className=" ">contact us</li>
+              </Link>
+
+              <Link to={"/services"}>
+                <li className=" text-[#FFF]">services</li>
+              </Link>
+              <Link to={"/review"}>
+                <li className=" text-[#FFF]">for developers</li>
+              </Link>
+
+              <li className=" text-[#FFF]">success stories</li>
+
+              <Link to={"/blog"} className=" text-[#FFF]">
+                <li className=" text-[#FFF]"> remote jobs</li>
+              </Link>
             </ul>
           )}
         </div>

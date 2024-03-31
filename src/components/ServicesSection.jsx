@@ -54,7 +54,7 @@ export default function Services() {
           <h2 className=" font-[700] text-[24px] leading-[32px] sm:text-center w-full   text-[#00004E]">
             Product Design
           </h2>
-          <p className="  font-[400] w-[75%] h-[120px] md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
+          <p className="  font-[400] w-[75%]  md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
             At Inovola, we redefine the landscape of product design, offering
             services that expertly merge functionality with cutting-edge
             technologies. Our team, composed of seasoned designers, excels in
@@ -78,7 +78,7 @@ export default function Services() {
           <h2 className=" font-[700] text-[24px] leading-[32px]  sm:text-center w-full  text-[#00004E]">
             DevTeam as a Service
           </h2>
-          <p className="  font-[400] w-[75%] h-[120px] md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
+          <p className="  font-[400] w-[75%] md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
             At Inovola, we redefine the landscape of product design, offering
             services that expertly merge functionality with cutting-edge
             technologies. Our team, composed of seasoned designers, excels in
@@ -102,7 +102,7 @@ export default function Services() {
           <h2 className=" font-[700] text-[24px] leading-[32px]  sm:text-center w-full  text-[#00004E]">
             HR as a Service
           </h2>
-          <p className="  font-[400] w-[75%] h-[120px] md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
+          <p className="  font-[400] w-[75%]  md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
             At Inovola, we redefine the landscape of product design, offering
             services that expertly merge functionality with cutting-edge
             technologies. Our team, composed of seasoned designers, excels in
@@ -126,7 +126,7 @@ export default function Services() {
           <h2 className=" font-[700] text-[24px] leading-[32px]  sm:text-center w-full  text-[#00004E]">
             Software Solutions
           </h2>
-          <p className="  font-[400] w-[75%] h-[120px] md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
+          <p className="  font-[400] w-[75%] md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
             At Inovola, we redefine the landscape of product design, offering
             services that expertly merge functionality with cutting-edge
             technologies. Our team, composed of seasoned designers, excels in
@@ -150,7 +150,7 @@ export default function Services() {
           <h2 className=" font-[700] text-[24px] leading-[32px]  sm:text-center w-full  text-[#00004E]">
             Software Solutions
           </h2>
-          <p className="  font-[400] w-[75%] h-[120px] md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
+          <p className="  font-[400] w-[75%]  md:w-[300px] leading-[20px]  my-4 text-[#5E6164]">
             At Inovola, we redefine the landscape of product design, offering
             services that expertly merge functionality with cutting-edge
             technologies. Our team, composed of seasoned designers, excels in
